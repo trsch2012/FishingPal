@@ -9,7 +9,7 @@ module.exports = {
 	dev: {
 		options: {
 			bases: path.resolve('./tmp'),
-			server: path.resolve('./index'),
+			server: path.resolve('./server'),
 			livereload: true
 		}
 	},
@@ -17,7 +17,7 @@ module.exports = {
 	dist: {
 		options: {
 			bases: path.resolve('./dist'),
-			server: path.resolve('./index')
+			server: path.resolve('./server')
 		}
 	}
 };

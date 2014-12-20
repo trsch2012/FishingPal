@@ -2,3 +2,4 @@
 node_modules/
 FishingPal.sln
 tmp/
+.tmp/
