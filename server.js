@@ -11,7 +11,7 @@ server.configure(function () {
 
 require('./app')(server);
 
-server.use(orm.express('sqlite://./test.db', {
+server.use(orm.express('mysql://b36e5573a85c67:69ce72d8@us-cdbr-azure-west-a.cloudapp.net/FishingPal', {
     define: function (db, models, next) {
         // Load your models here
         models.todo = require('./server/models/todo')(db);
