@@ -19,7 +19,7 @@ var config = {
       name: 'fishingpal'
     },
     port: 3000,
-    db: 'mongodb://localhost/fishingpal-test'
+    db: 'mongodb://FishingPalMongoDB:H2ktuwd4UDeQN.hsHmf26NSDbNqf_ZaKw3ewfEZ4fWY-@ds030607.mongolab.com:30607/FishingPalMongoDB'
     
   },
 
