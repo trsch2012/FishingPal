@@ -17,7 +17,7 @@ gulp.task('watch', function() {
 gulp.task('develop', function () {
   livereload.listen();
   nodemon({
-    script: 'app.js',
+    script: 'server.js',
     ext: 'js jade',
   }).on('restart', function () {
     setTimeout(function () {
