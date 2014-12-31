@@ -18,7 +18,7 @@ gulp.task('develop', function () {
   livereload.listen();
   nodemon({
     script: 'server.js',
-    ext: 'js jade',
+    ext: 'js swig',
   }).on('restart', function () {
     setTimeout(function () {
       livereload.changed();
